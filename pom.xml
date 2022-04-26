@@ -45,6 +45,24 @@
 			<artifactId>itextpdf</artifactId>
 			<version>5.5.13.3</version>
 		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>io</artifactId>
+			<version>7.1.5</version>
+		</dependency>
+		<!-- Thanks for using https://jar-download.com -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>kernel</artifactId>
+			<version>7.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>layout</artifactId>
+			<version>7.2.2</version>
+		</dependency>
+		<!-- Thanks for using https://jar-download.com -->
+
 	</dependencies>
 
 	<build>
