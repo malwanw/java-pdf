@@ -96,10 +96,48 @@ public class PdfGeneratorService {
                 //Set text font and size.
                 pageContentByte.setFontAndSize(baseFont, 14);
 
-                pageContentByte.setTextMatrix(10, 798);
+                pageContentByte.setTextMatrix(200, 795);
 
                 //Write text
-                pageContentByte.showText("w3spoint.com");
+                pageContentByte.showText("Budi");
+                pageContentByte.endText();
+
+
+                pageContentByte.beginText();
+                //Set text font and size.
+                pageContentByte.setFontAndSize(baseFont, 14);
+
+                pageContentByte.setTextMatrix(200, 779);
+
+                //Write text
+                pageContentByte.showText("3578260406730001");
+                pageContentByte.endText();
+                pageContentByte.beginText();
+                //Set text font and size.
+                pageContentByte.setFontAndSize(baseFont, 14);
+
+                pageContentByte.setTextMatrix(200, 763);
+
+                //Write text
+                pageContentByte.showText("Jl. Basuki Rahmat");
+                pageContentByte.endText();
+                pageContentByte.beginText();
+                //Set text font and size.
+                pageContentByte.setFontAndSize(baseFont, 14);
+
+                pageContentByte.setTextMatrix(200, 747);
+
+                //Write text
+                pageContentByte.showText("budi@gmail.com");
+                pageContentByte.endText();
+                pageContentByte.beginText();
+                //Set text font and size.
+                pageContentByte.setFontAndSize(baseFont, 14);
+
+                pageContentByte.setTextMatrix(200, 731);
+
+                //Write text
+                pageContentByte.showText("0813122324234");
                 pageContentByte.endText();
             }
 
