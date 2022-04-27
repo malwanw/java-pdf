@@ -14,7 +14,23 @@ public class Parameter {
 
     private String param;
 
+    private Integer x;
+    private Integer y;
+    private Integer size;
+
     public Parameter() {
+    }
+
+    public Integer getX() {
+        return x;
+    }
+
+    public Integer getY() {
+        return y;
+    }
+
+    public Integer getSize() {
+        return size;
     }
 
     public Integer getId() {

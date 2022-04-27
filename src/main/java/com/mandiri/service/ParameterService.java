@@ -13,10 +13,21 @@ public class ParameterService {
     ParameterRepository parameterRepository;
 
     public List<Parameter> getAll(){
-        return parameterRepository.findAll();
+        return parameterRepository.findAllByOrderByIdAsc();
+    }
+
+    public Parameter getById(Integer id){
+        return parameterRepository.findById(id).get();
     }
 
     public Parameter addParam(Parameter parameter){
         return parameterRepository.save(parameter);
+    }
+
+    public void updateParam(Parameter parameter){
+        parameterRepository.save(parameter);
+    }
+    public void deleteById(Integer id) {
+        parameterRepository.deleteById(id);
     }
 }
