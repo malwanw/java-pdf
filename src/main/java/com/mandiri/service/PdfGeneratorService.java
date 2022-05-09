@@ -53,7 +53,7 @@ public class PdfGeneratorService {
         }
     }
 
-    public void createPdf(){
+    public void createPdfBiodata(){
         try {
             //Create Document instance.
             Document document = new Document();
@@ -86,14 +86,6 @@ public class PdfGeneratorService {
                 cb.showText(parameter.getParam()+":");
             }
             cb.endText();
-//            PdfPTable table = new PdfPTable(2);
-//            table.setWidths(new int[]{2, 6});
-//            for(Parameter param:parameterList){
-//                table.addCell(param.getParam());
-//                table.addCell("");
-//            }
-//            document.add(table);
-
             //Close document and outputStream.
             document.close();
             outputStream.close();

@@ -17,7 +17,7 @@ public class PdfController {
 
     @GetMapping("/template-pdf")
     public void createPdf(){
-        pdfGeneratorService.createPdf();
+        pdfGeneratorService.createPdfBiodata();
     }
     @PostMapping("/new-pdf")
     public void writePdf(@RequestBody ValueDto valueDto){
